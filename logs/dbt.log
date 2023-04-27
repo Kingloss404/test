@@ -1,0 +1,26 @@
+
+
+============================== 2023-04-26 09:22:38.673632 | 81af5087-7a29-4066-9ff6-9194546c4065 ==============================
+[0m09:22:38.673632 [info ] [MainThread]: Running with dbt=1.4.6
+[0m09:22:38.676672 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\hp\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m09:22:38.677750 [debug] [MainThread]: Tracking: tracking
+[0m09:22:38.691943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001831A9E3750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001831A765C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001831ADE3CD0>]}
+[0m09:22:38.693927 [debug] [MainThread]: Starter project path: E:\test_pfe\alz\Lib\site-packages\dbt\include\starter_project
+[0m09:24:18.832026 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:24:18.833026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001831AEB5C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001831ADE3CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001831A789A50>]}
+[0m09:24:18.833026 [debug] [MainThread]: Flushing usage events
