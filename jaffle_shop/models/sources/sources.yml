@@ -1,0 +1,31 @@
+
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: test
+    schema: public
+    description: A replica of the postgres database used to power the jaffle_shop app.
+    tables:
+      - name: customer
+        columns:
+          - name: customer_id
+            description: Primary key of the table
+            tests:
+              - unique
+              - not_null
+
+      - name: product
+        columns:
+          - name: product_id
+            description: Primary key of the table
+            tests:
+              - unique
+              - not_null
+
+          - name: product_name
+            description: Foreign key to customers
+
+          - name: unit_price
+            tests:
+              - not_null
